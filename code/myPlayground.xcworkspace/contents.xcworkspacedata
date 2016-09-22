@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "ch3">
+      <FileRef
+         location = "group:ch3/3.2&#x5e38;&#x91cf;&#x548c;&#x53d8;&#x91cf;.playground">
+      </FileRef>
+      <FileRef
+         location = "container:ch3/3.1.1&#x6807;&#x8bc6;&#x7b26;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "ch4">
+      <FileRef
+         location = "group:ch4/4.1.1&#x4e00;&#x5143;&#x7b97;&#x6570;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.1.2&#x4e8c;&#x5143;&#x7b97;&#x6570;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.1.3 &#x7b97;&#x672f;&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.2&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.3&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.4&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:ch4/4.5&#x5176;&#x5b83;&#x8fd0;&#x7b97;&#x7b26;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:../.."
+      name = "ch5">
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.2&#x6574;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.3&#x6d6e;&#x70b9;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.4.1&#x8fdb;&#x5236;&#x6570;&#x5b57;&#x8868;&#x793a;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.4.2&#x6307;&#x6570;&#x8868;&#x793a;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.4.3&#x5176;&#x5b83;&#x8868;&#x793a;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.5.1&#x6574;&#x578b;&#x4e4b;&#x95f4;&#x8f6c;&#x6362;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.5.2&#x6574;&#x578b;&#x4e0e;&#x6d6e;&#x70b9;&#x578b;&#x4e4b;&#x95f4;&#x8f6c;&#x6362;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.6&#x5e03;&#x5c14;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.7&#x5143;&#x7ec4;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch5/5.8&#x53ef;&#x9009;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:../.."
+      name = "ch6">
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.1.1Unicode&#x7f16;&#x7801;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.1.2&#x8f6c;&#x4e49;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.2&#x521b;&#x5efa;&#x5b57;&#x7b26;&#x4e32;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.3&#x5b57;&#x7b26;&#x4e32;&#x53ef;&#x53d8;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.4.1&#x5927;&#x5c0f;&#x548c;&#x76f8;&#x7b49;&#x6bd4;&#x8f83;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch6/6.4.2&#x524d;&#x7f00;&#x548c;&#x540e;&#x7f00;&#x6bd4;&#x8f83;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:../.."
+      name = "ch7">
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.1&#x6761;&#x4ef6;&#x8bed;&#x53e5;if.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.1&#x6761;&#x4ef6;&#x8bed;&#x53e5;if-else.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.1&#x6761;&#x4ef6;&#x8bed;&#x53e5;else-if.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.2&#x57fa;&#x672c;&#x5f62;&#x5f0f;switch.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.3&#x5728;switch&#x4e2d;&#x4f7f;&#x7528;&#x8303;&#x56f4;&#x5339;&#x914d;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.4&#x5728;switch&#x4e2d;&#x6bd4;&#x8f83;&#x5143;&#x7ec4;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.4&#x5728;switch&#x4e2d;&#x6bd4;&#x8f83;&#x5143;&#x7ec4;&#x7c7b;&#x578b;(&#x503c;&#x7ed1;&#x5b9a;).playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.1.4&#x5728;switch&#x4e2d;&#x6bd4;&#x8f83;&#x5143;&#x7ec4;&#x7c7b;&#x578b;(&#x503c;&#x7ed1;&#x5b9a;where).playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.2.1while&#x8bed;&#x53e5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.2.2do while&#x8bed;&#x53e5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.2.3for&#x8bed;&#x53e5;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.2.3for&#x8bed;&#x53e5;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.2.4for in&#x8bed;&#x53e5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.3.1break&#x8bed;&#x53e5;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.3.1break&#x8bed;&#x53e5;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.3.2continue&#x8bed;&#x53e5;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.3.2continue&#x8bed;&#x53e5;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:iOS&#x5e94;&#x7528;&#x5f00;&#x53d1;/&#x4ee3;&#x7801;/ch7/7.3.3fallthrough&#x8bed;&#x53e5;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch8"
+      name = "ch8">
+      <FileRef
+         location = "group:8.1.1&#x6570;&#x7ec4;&#x58f0;&#x660e;&#x4e0e;&#x521d;&#x59cb;&#x5316;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.1.2&#x6570;&#x7ec4;&#x7684;&#x4fee;&#x6539;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.1.3&#x6570;&#x7ec4;&#x904d;&#x5386;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.2.1&#x5b57;&#x5178;&#x58f0;&#x660e;&#x4e0e;&#x521d;&#x59cb;&#x5316;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.2.2&#x5b57;&#x5178;&#x7684;&#x4fee;&#x6539;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.2.3&#x5b57;&#x5178;&#x904d;&#x5386;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.3.1&#x5b57;&#x5178;&#x62f7;&#x8d1d;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.3.1&#x5b57;&#x5178;&#x62f7;&#x8d1d;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.3.2&#x6570;&#x7ec4;&#x62f7;&#x8d1d;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:8.3.2&#x6570;&#x7ec4;&#x62f7;&#x8d1d;2.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch9"
+      name = "ch9">
+      <FileRef
+         location = "group:9.1&#x4f7f;&#x7528;&#x51fd;&#x6570;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.1&#x4f7f;&#x7528;&#x5916;&#x90e8;&#x53c2;&#x6570;&#x540d;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.1&#x4f7f;&#x7528;&#x5916;&#x90e8;&#x53c2;&#x6570;&#x540d;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.1&#x4f7f;&#x7528;&#x5916;&#x90e8;&#x53c2;&#x6570;&#x540d;3.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.2&#x53c2;&#x6570;&#x9ed8;&#x8ba4;&#x503c;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.3&#x53ef;&#x53d8;&#x53c2;&#x6570;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.2.4&#x53c2;&#x6570;&#x7684;&#x4f20;&#x9012;&#x5f15;&#x7528;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.3.2&#x591a;&#x8fd4;&#x56de;&#x503c;&#x51fd;&#x6570;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.4.1&#x4f5c;&#x4e3a;&#x51fd;&#x6570;&#x8fd4;&#x56de;&#x7c7b;&#x578b;&#x4f7f;&#x7528;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.4.2&#x4f5c;&#x4e3a;&#x53c2;&#x6570;&#x7c7b;&#x578b;&#x4f7f;&#x7528;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.4&#x51fd;&#x6570;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.5&#x51fd;&#x6570;&#x91cd;&#x8f7d;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.6&#x5d4c;&#x5957;&#x51fd;&#x6570;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:9.7&#x6cdb;&#x578b;&#x548c;&#x6cdb;&#x578b;&#x51fd;&#x6570;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch10"
+      name = "ch10">
+      <FileRef
+         location = "group:10.1&#x95ed;&#x5305;&#x8868;&#x8fbe;&#x5f0f;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.3.1&#x7c7b;&#x578b;&#x63a8;&#x65ad;&#x7b80;&#x5316;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.3.2&#x9690;&#x85cf;return&#x5173;&#x952e;&#x5b57;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.3.3&#x7f29;&#x5199;&#x53c2;&#x6570;&#x540d;&#x79f0;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.3.4&#x4f7f;&#x7528;&#x95ed;&#x5305;&#x8fd4;&#x56de;&#x503c;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.4&#x4f7f;&#x7528;&#x5c3e;&#x968f;&#x95ed;&#x5305;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:10.5&#x6355;&#x83b7;&#x4e0a;&#x4e0b;&#x6587;&#x4e2d;&#x53d8;&#x91cf;&#x548c;&#x5e38;&#x91cf;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch11"
+      name = "ch11">
+      <FileRef
+         location = "group:11.3.1&#x6210;&#x5458;&#x503c;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.3.2&#x539f;&#x59cb;&#x503c;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.3.3&#x76f8;&#x5173;&#x503c;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.4.1&#x7c7b;&#x548c;&#x7ed3;&#x6784;&#x4f53;&#x5b9a;&#x4e49;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.4.2&#x518d;&#x8c08;&#xff1a;&#x503c;&#x7c7b;&#x578b;&#x548c;&#x5f15;&#x7528;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.4.3&#x5f15;&#x7528;&#x7c7b;&#x578b;&#x7684;&#x6bd4;&#x8f83;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.5&#x5bf9;&#x8c61;&#x7c7b;&#x578b;&#x5d4c;&#x5957;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.6.1&#x53ef;&#x9009;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.6.2&#x53ef;&#x9009;&#x94fe;1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.6.2&#x53ef;&#x9009;&#x94fe;2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.6.2&#x53ef;&#x9009;&#x94fe;3.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.7.3&#x5143;&#x7ec4;&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.7.3&#x7edf;&#x4e00;&#x6027;&#x539f;&#x5219;-1.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.7.3&#x7edf;&#x4e00;&#x6027;&#x539f;&#x5219;-2.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.7.3&#x7edf;&#x4e00;&#x6027;&#x539f;&#x5219;-3.playground">
+      </FileRef>
+      <FileRef
+         location = "group:11.7.3&#x7edf;&#x4e00;&#x6027;&#x539f;&#x5219;-4.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch12"
+      name = "ch12">
+      <FileRef
+         location = "group:12.1.1&#x4fdd;&#x5b58;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.1.2&#x5ef6;&#x8fdf;&#x4fdd;&#x5b58;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.2.1&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x6982;&#x5ff5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.2.2&#x53ea;&#x8bfb;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.2.3 &#x7ed3;&#x6784;&#x4f53;&#x548c;&#x679a;&#x4e3e;&#x4e2d;&#x7684;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.3&#x5c5e;&#x6027;&#x89c2;&#x5bdf;&#x8005;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.4.1&#x7ed3;&#x6784;&#x4f53;&#x9759;&#x6001;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.4.2&#x679a;&#x4e3e;&#x9759;&#x6001;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.4.3&#x7c7b;&#x9759;&#x6001;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:12.5&#x4f7f;&#x7528;&#x4e0b;&#x6807;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch13"
+      name = "ch13">
+      <FileRef
+         location = "group:13.1.1&#x4f7f;&#x7528;&#x89c4;&#x8303;&#x7684;&#x547d;&#x540d;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:13.1.2&#x7ed3;&#x6784;&#x4f53;&#x548c;&#x679a;&#x4e3e;&#x65b9;&#x6cd5;&#x53d8;&#x5f02;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:13.1&#x5b9e;&#x4f8b;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:13.2.1&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#x9759;&#x6001;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:13.2.2&#x679a;&#x4e3e;&#x4e2d;&#x9759;&#x6001;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:13.2.3&#x7c7b;&#x4e2d;&#x9759;&#x6001;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch14"
+      name = "ch14">
+      <FileRef
+         location = "group:14.1.1&#x9ed8;&#x8ba4;&#x6784;&#x9020;&#x5668;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:14.1.2&#x6784;&#x9020;&#x5668;&#x4e0e;&#x5b58;&#x50a8;&#x5c5e;&#x6027;&#x521d;&#x59cb;&#x5316;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:14.1.3&#x4f7f;&#x7528;&#x5916;&#x90e8;&#x53c2;&#x6570;&#x540d;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:14.2.1&#x6784;&#x9020;&#x5668;&#x91cd;&#x8f7d;&#x6982;&#x5ff5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:14.2.2&#x503c;&#x7c7b;&#x578b;&#x6784;&#x9020;&#x5668;&#x4ee3;&#x7406;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:14.2.3&#x5f15;&#x7528;&#x7c7b;&#x578b;&#x6784;&#x9020;&#x5668;&#x4ee3;&#x7406;.playground">
+      </FileRef>
+      <Group
+         location = "group:14.3&#x6790;&#x6784;&#x5668;"
+         name = "14.3&#x6790;&#x6784;&#x5668;">
+         <Group
+            location = "group:HelloWorld"
+            name = "HelloWorld">
+            <Group
+               location = "group:HelloWorld"
+               name = "HelloWorld">
+               <Group
+                  location = "group:Base.lproj"
+                  name = "Base.lproj">
+                  <FileRef
+                     location = "group:LaunchScreen.xib">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Images.xcassets"
+                  name = "Images.xcassets">
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:main.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:HelloWorld.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:HelloWorldTests"
+               name = "HelloWorldTests">
+               <FileRef
+                  location = "group:HelloWorldTests.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:ch15"
+      name = "ch15">
+      <FileRef
+         location = "group:15.1&#x4ece;&#x4e00;&#x4e2a;&#x5b9e;&#x4f8b;&#x5f00;&#x59cb;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.2.1&#x6784;&#x9020;&#x5668;&#x8c03;&#x7528;&#x89c4;&#x5219;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.2.2&#x6784;&#x9020;&#x8fc7;&#x7a0b;&#x5b89;&#x5168;&#x68c0;&#x67e5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.2.3&#x6784;&#x9020;&#x5668;&#x7ee7;&#x627f;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.3.1&#x91cd;&#x5199;&#x5c5e;&#x6027;&#x89c2;&#x5bdf;&#x8005;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.3.1&#x91cd;&#x5199;&#x5c5e;&#x6027;&#x8bbf;&#x95ee;&#x5668;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.3.2&#x65b9;&#x6cd5;&#x91cd;&#x5199;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.3.3&#x4e0b;&#x6807;&#x91cd;&#x5199;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.3.4&#x4f7f;&#x7528;final&#x5173;&#x952e;&#x5b57;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.4.1&#x4f7f;&#x7528;is&#x64cd;&#x4f5c;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.4.2&#x4f7f;&#x7528;as&#x64cd;&#x4f5c;&#x7b26;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.4.3&#x4f7f;&#x7528;Any&#x548c;AnyObject&#x7c7b;&#x578b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:15.4&#x7c7b;&#x578b;&#x68c0;&#x67e5;&#x4e0e;&#x8f6c;&#x6362;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch16"
+      name = "ch16">
+      <FileRef
+         location = "group:16.1.1&#x6269;&#x5c55;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.1.3&#x6269;&#x5c55;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.1.4&#x6269;&#x5c55;&#x6784;&#x9020;&#x5668;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.1.5&#x6269;&#x5c55;&#x4e0b;&#x6807;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.2&#x53d8;&#x5f02;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.2&#x5b9e;&#x4f8b;&#x534f;&#x8bae;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.2&#x9759;&#x6001;&#x534f;&#x8bae;&#x65b9;&#x6cd5;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.3&#x5b9e;&#x4f8b;&#x534f;&#x8bae;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.3&#x9759;&#x6001;&#x534f;&#x8bae;&#x5c5e;&#x6027;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.4&#x628a;&#x534f;&#x8bae;&#x4f5c;&#x4e3a;&#x7c7b;&#x578b;&#x4f7f;&#x7528;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.5&#x534f;&#x8bae;&#x7684;&#x7ee7;&#x627f;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.2.6&#x534f;&#x8bae;&#x7684;&#x5408;&#x6210;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:16.3&#x6269;&#x5c55;&#x4e2d;&#x58f0;&#x660e;&#x534f;&#x8bae;.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ch19"
+      name = "ch19">
+      <FileRef
+         location = "group:19.1.1&#x83b7;&#x5f97;NSNumber&#x5b9e;&#x4f8b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.1.2NSNumber&#x5bf9;&#x8c61;&#x7684;&#x6bd4;&#x8f83;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.2.1NSString&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.2.2NSMutableString&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.2.3NSString&#x4e0e;String&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.3.1NSArray&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.3.2NSMutableArray&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.3.3NSArray&#x4e0e;Array&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.4.1NSDictionary&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.4.2NSMutableDictionary&#x7c7b;.playground">
+      </FileRef>
+      <FileRef
+         location = "group:19.4.3NSDictionary&#x4e0e;Dictionary&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;.playground">
+      </FileRef>
+   </Group>
+</Workspace>
