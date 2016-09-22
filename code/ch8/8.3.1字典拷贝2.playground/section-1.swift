@@ -19,8 +19,10 @@ emps["567-24-2546"] = emp2
 var copyEmps = emps
 
 let copyEmp : Employee! = copyEmps["567-24-2546"]
+
 copyEmp.name = "Gary Cooper"
 
 let emp : Employee! = emps["567-24-2546"]
+
 print(emp.name)
 
