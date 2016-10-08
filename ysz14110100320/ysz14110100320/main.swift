@@ -22,16 +22,18 @@ print("\(name), you are \(tall) feet tall")
 //下一个150美元为20%
 //余下的为25%
 //不必关心本例是否符合当前税法，要求使用Switch语句实现。
-func salary(S salary:Int = 10,H hour:Int) -> (salaries:Int, taxes:Int){
-    var salaries:Int, taxes:Int
+func salary(S salary:Double = 10,H hour:Double) -> (Double, Double){
+    var salaries:Double, taxes:Double
     switch salary {
     case 0...40:
         salaries = salary * hour
-    default: salaries = salary * hour * 1.5
+    default:
+        salaries = salary * hour * 1.5
     }
-    switch salaries {
-    case salaries>300: taxes = 45+(salaries-300)*0.2
-    default: taxes = salaries * 0.15
+    if salaries > 300 {
+        taxes = 45 + (salaries-300) * 0.2
+    } else {
+        taxes = salaries * 0.15
     }
     return (salaries, taxes)
 }
@@ -40,7 +42,7 @@ for i in 100...200 {
     var a = i/100;
     var b = (i%10)/10
     var c = i%10
-    if a*a*a+b*b*b+c*c*c = i {
+    if (a*a*a)+(b*b*b)+(c*c*c) == i {
         print(i)
     }
 }
