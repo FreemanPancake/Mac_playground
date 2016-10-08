@@ -10,5 +10,5 @@ var studentList4 = [String]()
 
 var studentList5 = Array<String>()
 
-studentList4.count
+studentList5.count
 studentList4.isEmpty

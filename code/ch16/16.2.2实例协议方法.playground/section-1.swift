@@ -22,3 +22,9 @@ rect.onDraw()
 let circle : Figure = Circle()
 circle.onDraw()
 
+//test
+
+protocol Eatable {
+    func taste()
+    class func text (
+}
