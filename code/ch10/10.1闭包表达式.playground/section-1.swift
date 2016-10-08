@@ -1,6 +1,9 @@
 // Playground - noun: a place where people can play
 
-
+//引用类型：类，函数类型，闭包
+//闭包：
+//｛（）
+//｝
 func calculate(opr :String)-> (Int,Int)-> Int {
     
     var result : (Int,Int)-> Int

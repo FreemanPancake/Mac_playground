@@ -3,7 +3,7 @@
 import UIKit
 
 class Person {
-    var name : String
+    var name : String = "Daniel"
     var age : Int
     
     func description() -> String {
@@ -18,9 +18,9 @@ class Person {
 
 class Student : Person {
     var school : String
-    override init () {
+    override init () {//重写构造器
         school = ""
-        super.init()
+        super.init() //向上调用关键字： super
         age  = 8
     }
 }

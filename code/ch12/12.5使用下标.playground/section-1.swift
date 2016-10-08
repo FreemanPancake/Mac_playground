@@ -1,5 +1,14 @@
 // Playground - noun: a place where people can play
 
+/*
+下标可以多个，通过行參列表和下标定义
+ 与实例方法不同的是，下标可以设定为只读或读写
+ newValue类型必须和下标定义的返回值类型一致
+ 只读下标，可以省略get
+ 通过下标赋值自动调用set；
+ 通过下标获取自动调用get；
+ */
+
 struct DoubleDimensionalArray {
     
     let rows: Int, columns: Int

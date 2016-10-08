@@ -1,5 +1,5 @@
 // Playground - noun: a place where people can play
-
+// 尾随闭包：trailing
 func calculate(opr:String, funN:(Int,Int)-> Int) {
     
     switch (opr) {
