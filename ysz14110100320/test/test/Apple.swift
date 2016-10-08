@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Apple: Eatable {
+    var name:String
+    init(){
+        name = "freeman"
+    }
+    func taste(){
+        
+    }
+    static func test(msgs:String...){
+        
+    }
+}

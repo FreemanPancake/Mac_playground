@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol Eatable {
+    func taste()
+    static func test(msgs:String...)
+}

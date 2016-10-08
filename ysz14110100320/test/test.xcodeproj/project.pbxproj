@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B6844DBB1DA897CF00DD860F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844DBA1DA897CF00DD860F /* main.swift */; };
+		B6844DC21DA897F800DD860F /* Eatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844DC11DA897F800DD860F /* Eatable.swift */; };
+		B6844DC41DA8980D00DD860F /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6844DC31DA8980D00DD860F /* Apple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B6844DB71DA897CF00DD860F /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6844DBA1DA897CF00DD860F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B6844DC11DA897F800DD860F /* Eatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eatable.swift; sourceTree = "<group>"; };
+		B6844DC31DA8980D00DD860F /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				B6844DBA1DA897CF00DD860F /* main.swift */,
+				B6844DC11DA897F800DD860F /* Eatable.swift */,
+				B6844DC31DA8980D00DD860F /* Apple.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6844DC41DA8980D00DD860F /* Apple.swift in Sources */,
+				B6844DC21DA897F800DD860F /* Eatable.swift in Sources */,
 				B6844DBB1DA897CF00DD860F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

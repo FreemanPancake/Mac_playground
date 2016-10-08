@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+let apple = Apple()
 
+apple.name = "苹果"

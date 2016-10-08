@@ -58,8 +58,30 @@ func largeOf (A a:Double,B b:Double) -> Double {
 }
 //5．编写并测试一个函数Fibonacci，在该函数中使用循环完成斐波纳契数列的计算。
 
+
 //6．编写一个函数，返回一个Int数组中的最大数值，并测试这个函数。
+func isMax (A a:Array<Int> ) -> Int {
+    var m:Int = a[0]
+    for i in 0...a.count {
+        if m > a[i] {
+            return m
+        } else {
+            m = a[i]
+        }
+    }
+    return m
+}
+
+
+//var A: [Int]  = [4,3,9,6]
+//print("the max number is",isMax(A:A))
+
 //7．编写一个函数，把两个数组内的相应元素相加，结果返回。并测试这个函数。
+func combine (A a:Array<Int>,B b:Array<Int>) -> Array<Int> {
+    var c = [Int]()
+    
+}
+
 //8．编写一个程序。按照下列要求：
 //第一个属性是社会保障号；第二个属性是一个含有三个成员的结构。它的第一个成员是名，第二个成员是名和姓中间的名字，最后一个是姓。创建并初始化一个含有此类结构的数组。程序按以下形式输出数据：
 //Matthew Paige Damon
