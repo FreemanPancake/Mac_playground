@@ -79,11 +79,9 @@ func isMax (A array:[Int] = []) -> Int {
 //7．编写一个函数，把两个数组内的相应元素相加，结果返回。并测试这个函数。
 func combine (A a:Array<Int>,B b:Array<Int>) -> Array<Int> {
     var c = [Int]()
-    var n : Int = 0
     for i in 0..<a.count {
         for j in 0..<b.count {
-            c[n] = a[i] + b[j]
-            n+=1
+            c.append(a[i] + b[j])
         }
     }
     return c
@@ -118,28 +116,31 @@ class Rectangle {
         self.width = 1.0
     }
     
-    public func setlength(L l:Double){
+    func setlength(L l:Double){
         if l>=0.0 && l<=2.0{
             self.length = l
         }
     }
-    public func getlength() -> Double{
+    
+    func getlength() -> Double{
         return self.length
     }
     
-    public func setwidth(W w:Double){
+    func setwidth(W w:Double){
         if w>=0.0 && w<=2.0{
             self.width = w
         }
     }
-    public func getwidth() -> Double{
+    
+    func getwidth() -> Double{
         return self.width
     }
     
-    public func perimeter(L l:Double,W w:Double) -> Double {
+    func perimeter(L l:Double,W w:Double) -> Double {
         return (l+w)*2
     }
-    public func area(L l:Double,W w:Double) -> Double {
+    
+    func area(L l:Double,W w:Double) -> Double {
         return l*w
     }
 }

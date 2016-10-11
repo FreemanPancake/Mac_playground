@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ysz_first/ViewController.swift"
-            timestampString = "497590553.159249"
+            timestampString = "497841805.912137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "viewWillDisappear(_:)"
             landmarkType = "5">
          </BreakpointContent>
