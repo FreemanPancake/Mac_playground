@@ -36,9 +36,10 @@ struct Department {
 }
 
 var emp = Employee()
-print(emp.fullName)
 
-emp.fullName = "Tom.Guan"
+print(emp.fullName)//get
+emp.fullName = "Tom.Guan"//set
+
 print(emp.fullName)
 print(emp.firstName)
 
