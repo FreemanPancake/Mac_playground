@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>12</string>
+		<key>number</key>
+		<string>24</string>
+		<key>islearn</key>
+		<string>否</string>
+		<key>learnnumber</key>
+		<string>35</string>
+		<key>image</key>
+		<string>hua01</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>64</string>
+		<key>number</key>
+		<string>128</string>
+		<key>islearn</key>
+		<string>是</string>
+		<key>learnnumber</key>
+		<string>105</string>
+		<key>image</key>
+		<string>hua</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>48</string>
+		<key>number</key>
+		<string>64</string>
+		<key>islearn</key>
+		<string>是</string>
+		<key>learnnumber</key>
+		<string>35</string>
+		<key>image</key>
+		<string>lotus01</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>12</string>
+		<key>number</key>
+		<string>24</string>
+		<key>islearn</key>
+		<string>否</string>
+		<key>learnnumber</key>
+		<string>35</string>
+		<key>image</key>
+		<string>lotus</string>
+	</dict>
+</array>
+</plist>

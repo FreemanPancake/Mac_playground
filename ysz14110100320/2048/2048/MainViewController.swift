@@ -13,14 +13,54 @@ class MainViewController: UIViewController {
     var dimension = 4 //纬度
     let WIDTH:CGFloat = 50 //方格宽度
     let PADDING:CGFloat = 6 //方格间距
+    
+    var commonScore:ScoreView!
+    var bestScore:ScoreView!
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor.white
+        setScoreLabels()
         setGameMap()
         setButtons()
+        for _ in 0..<2 {
+            genNumber()
+        }
+        
+    }
+    
+    //MARK:产生随机数
+    func genNumber(){
+        
+        //用于确定随机数的概率
+        let randv = Int(arc4random_uniform(UInt32(10)))
+        var seed:Int = 2 //90%的概率会产生2
+        if randv == 1 { //有10%的几率出现1
+            seed = 4
+        }
+        
+        //随机生成行号和列号
+        let row = Int(arc4random_uniform(UInt32(dimension)))
+        let col = Int(arc4random_uniform(UInt32(dimension)))
+        
+        //插入
+    }
+    
+    //MARK:布局分数面板，初值0
+    func setScoreLabels(){
+        let x = (self.view.bounds.size.width-CGFloat(dimension)*WIDTH)/2
+        
+        commonScore = ScoreView(type:ScoreType.common)
+        commonScore.frame.origin = CGPoint(x: x,y: 80)
+        commonScore.changeScore(value: 0)
+        self.view.addSubview(commonScore)
+        
+        bestScore = ScoreView(type:ScoreType.best)
+        bestScore.frame.origin = CGPoint(x: x+120,y: 80)
+        bestScore.changeScore(value: 0)
+        self.view.addSubview(bestScore)
         
     }
     
@@ -32,8 +72,8 @@ class MainViewController: UIViewController {
             y = 150
             for _ in 0..<dimension {
                 //初始化视图
-                let square = UIView(frame: CGRectMake(x,y,WIDTH,WIDTH))
-                square.backgroundColor = UIColor.darkGrayColor()
+                let square = UIView(frame: CGRect(x: x,y: y,width: WIDTH,height: WIDTH))
+                square.backgroundColor = UIColor.darkGray
                 self.view.addSubview(square)
                 y+=WIDTH+PADDING
             }
@@ -46,23 +86,23 @@ class MainViewController: UIViewController {
         let x:CGFloat = (self.view.bounds.size.width-CGFloat(dimension)*WIDTH)/2
         
         //重置按钮
-        let btnReset = UIButton(type: UIButtonType.RoundedRect)
-        btnReset.frame = CGRectMake(x, 450, 100, 30)
-        btnReset.setTitle("Reset", forState: .Normal)
-        btnReset.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        btnReset.backgroundColor = UIColor.orangeColor()
-        btnReset.titleLabel?.font = UIFont.systemFontOfSize(14)
-        btnReset.addTarget(self, action: #selector(MainViewController.resetTapped), forControlEvents: .TouchUpInside)
+        let btnReset = UIButton(type: UIButtonType.roundedRect)
+        btnReset.frame = CGRect(x: x, y: 450, width: 100, height: 30)
+        btnReset.setTitle("Reset", for: UIControlState())
+        btnReset.setTitleColor(UIColor.white, for: UIControlState())
+        btnReset.backgroundColor = UIColor.orange
+        btnReset.titleLabel?.font = UIFont.systemFont(ofSize: 14)
+        btnReset.addTarget(self, action: #selector(MainViewController.resetTapped), for: .touchUpInside)
         self.view.addSubview(btnReset)
         
         //新数按钮
-        let btnGen = UIButton(type: UIButtonType.RoundedRect)
-        btnGen.frame = CGRectMake(x+120, 450, 100, 30)
-        btnGen.setTitle("NewNumber", forState: .Normal)
-        btnGen.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        btnGen.backgroundColor = UIColor.orangeColor()
-        btnGen.titleLabel?.font = UIFont.systemFontOfSize(14)
-        btnGen.addTarget(self, action: #selector(MainViewController.genTapped), forControlEvents: .TouchUpInside)
+        let btnGen = UIButton(type: UIButtonType.roundedRect)
+        btnGen.frame = CGRect(x: x+120, y: 450, width: 100, height: 30)
+        btnGen.setTitle("NewNumber", for: UIControlState())
+        btnGen.setTitleColor(UIColor.white, for: UIControlState())
+        btnGen.backgroundColor = UIColor.orange
+        btnGen.titleLabel?.font = UIFont.systemFont(ofSize: 14)
+        btnGen.addTarget(self, action: #selector(MainViewController.genTapped), for: .touchUpInside)
         self.view.addSubview(btnGen)
     }
     

@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6312D721DED0D6500355EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6312D711DED0D6500355EB5 /* AppDelegate.swift */; };
+		B6312D771DED0D6500355EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6312D751DED0D6500355EB5 /* Main.storyboard */; };
+		B6312D791DED0D6500355EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6312D781DED0D6500355EB5 /* Assets.xcassets */; };
+		B6312D7C1DED0D6500355EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6312D7A1DED0D6500355EB5 /* LaunchScreen.storyboard */; };
+		B6312D841DED0DB900355EB5 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6312D831DED0DB900355EB5 /* VideoController.swift */; };
+		B6312D861DED0DD700355EB5 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6312D851DED0DD700355EB5 /* VideoItem.swift */; };
+		B66121031DEFC7DA00C2334A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66121021DEFC7DA00C2334A /* MainController.swift */; };
+		B66121051DEFD46000C2334A /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66121041DEFD46000C2334A /* VideoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6312D6E1DED0D6500355EB5 /* MyTuDou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTuDou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6312D711DED0D6500355EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6312D761DED0D6500355EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6312D781DED0D6500355EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6312D7B1DED0D6500355EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6312D7D1DED0D6500355EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6312D831DED0DB900355EB5 /* VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		B6312D851DED0DD700355EB5 /* VideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
+		B66121021DEFC7DA00C2334A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		B66121041DEFD46000C2334A /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6312D6B1DED0D6500355EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6312D651DED0D6500355EB5 = {
+			isa = PBXGroup;
+			children = (
+				B6312D701DED0D6500355EB5 /* MyTuDou */,
+				B6312D6F1DED0D6500355EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6312D6F1DED0D6500355EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6312D6E1DED0D6500355EB5 /* MyTuDou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6312D701DED0D6500355EB5 /* MyTuDou */ = {
+			isa = PBXGroup;
+			children = (
+				B65325EE1DF2A02F00460D7B /* Model */,
+				B65325ED1DF2A01F00460D7B /* Controller */,
+				B6312D711DED0D6500355EB5 /* AppDelegate.swift */,
+				B6312D751DED0D6500355EB5 /* Main.storyboard */,
+				B6312D781DED0D6500355EB5 /* Assets.xcassets */,
+				B6312D7A1DED0D6500355EB5 /* LaunchScreen.storyboard */,
+				B6312D7D1DED0D6500355EB5 /* Info.plist */,
+			);
+			path = MyTuDou;
+			sourceTree = "<group>";
+		};
+		B65325ED1DF2A01F00460D7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B66121021DEFC7DA00C2334A /* MainController.swift */,
+				B6312D831DED0DB900355EB5 /* VideoController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B65325EE1DF2A02F00460D7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6312D851DED0DD700355EB5 /* VideoItem.swift */,
+				B66121041DEFD46000C2334A /* VideoCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6312D6D1DED0D6500355EB5 /* MyTuDou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6312D801DED0D6500355EB5 /* Build configuration list for PBXNativeTarget "MyTuDou" */;
+			buildPhases = (
+				B6312D6A1DED0D6500355EB5 /* Sources */,
+				B6312D6B1DED0D6500355EB5 /* Frameworks */,
+				B6312D6C1DED0D6500355EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTuDou;
+			productName = MyTuDou;
+			productReference = B6312D6E1DED0D6500355EB5 /* MyTuDou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6312D661DED0D6500355EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Freeman;
+				TargetAttributes = {
+					B6312D6D1DED0D6500355EB5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6312D691DED0D6500355EB5 /* Build configuration list for PBXProject "MyTuDou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6312D651DED0D6500355EB5;
+			productRefGroup = B6312D6F1DED0D6500355EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6312D6D1DED0D6500355EB5 /* MyTuDou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6312D6C1DED0D6500355EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6312D7C1DED0D6500355EB5 /* LaunchScreen.storyboard in Resources */,
+				B6312D791DED0D6500355EB5 /* Assets.xcassets in Resources */,
+				B6312D771DED0D6500355EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6312D6A1DED0D6500355EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66121051DEFD46000C2334A /* VideoCell.swift in Sources */,
+				B66121031DEFC7DA00C2334A /* MainController.swift in Sources */,
+				B6312D861DED0DD700355EB5 /* VideoItem.swift in Sources */,
+				B6312D841DED0DB900355EB5 /* VideoController.swift in Sources */,
+				B6312D721DED0D6500355EB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6312D751DED0D6500355EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6312D761DED0D6500355EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6312D7A1DED0D6500355EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6312D7B1DED0D6500355EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6312D7E1DED0D6500355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6312D7F1DED0D6500355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6312D811DED0D6500355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTuDou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Freeman.MyTuDou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6312D821DED0D6500355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyTuDou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Freeman.MyTuDou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6312D691DED0D6500355EB5 /* Build configuration list for PBXProject "MyTuDou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6312D7E1DED0D6500355EB5 /* Debug */,
+				B6312D7F1DED0D6500355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6312D801DED0D6500355EB5 /* Build configuration list for PBXNativeTarget "MyTuDou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6312D811DED0D6500355EB5 /* Debug */,
+				B6312D821DED0D6500355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6312D661DED0D6500355EB5 /* Project object */;
+}

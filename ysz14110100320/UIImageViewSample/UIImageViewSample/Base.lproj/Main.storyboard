@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIImageViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H48-UM-Jqk">
+                                <rect key="frame" x="223" y="290" width="155" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="YQy-Xc-AeO"/>
+                                    <constraint firstAttribute="height" constant="30" id="sxH-qg-Zug"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="资源目录加载"/>
+                                <connections>
+                                    <action selector="loadBundle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v2u-uh-p4J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mp-zK-K1P">
+                                <rect key="frame" x="223" y="335" width="155" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="沙箱目录加载"/>
+                                <connections>
+                                    <action selector="loadSandBox:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F35-6v-8GR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adN-BE-Rzc">
+                                <rect key="frame" x="223" y="380" width="155" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="远端服务加载"/>
+                                <connections>
+                                    <action selector="loadWebService:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAu-G2-LU1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfe-h4-tX5">
+                                <rect key="frame" x="223" y="434" width="155" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="从图片库选取">
+                                    <color key="titleColor" red="0.2427575038" green="0.54100539920000001" blue="0.1210914567" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ms4-dW-TCi">
+                                <rect key="frame" x="223" y="479" width="155" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="从照相机抓取">
+                                    <color key="titleColor" red="0.2427575038" green="0.54100539920000001" blue="0.1210914567" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DuI-RK-171">
+                                <rect key="frame" x="0.0" y="20" width="600" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="u61-7y-lfp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ms4-dW-TCi" firstAttribute="top" secondItem="wfe-h4-tX5" secondAttribute="bottom" constant="15" id="4bW-mc-Wie"/>
+                            <constraint firstItem="adN-BE-Rzc" firstAttribute="width" secondItem="H48-UM-Jqk" secondAttribute="width" id="580-4t-bfm"/>
+                            <constraint firstItem="Ms4-dW-TCi" firstAttribute="width" secondItem="H48-UM-Jqk" secondAttribute="width" id="Cic-Mb-0HW"/>
+                            <constraint firstItem="1Mp-zK-K1P" firstAttribute="top" secondItem="H48-UM-Jqk" secondAttribute="bottom" constant="15" id="Fdw-Mn-jjq"/>
+                            <constraint firstItem="Ms4-dW-TCi" firstAttribute="leading" secondItem="H48-UM-Jqk" secondAttribute="leading" id="IYp-d4-ob7"/>
+                            <constraint firstItem="DuI-RK-171" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="K4U-gg-nFc"/>
+                            <constraint firstItem="adN-BE-Rzc" firstAttribute="leading" secondItem="H48-UM-Jqk" secondAttribute="leading" id="KHs-5B-BYn"/>
+                            <constraint firstItem="1Mp-zK-K1P" firstAttribute="leading" secondItem="H48-UM-Jqk" secondAttribute="leading" id="Ljg-cW-oMX"/>
+                            <constraint firstItem="H48-UM-Jqk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MDG-DV-fsL"/>
+                            <constraint firstItem="adN-BE-Rzc" firstAttribute="top" secondItem="1Mp-zK-K1P" secondAttribute="bottom" constant="15" id="Niw-Kg-oCI"/>
+                            <constraint firstItem="wfe-h4-tX5" firstAttribute="leading" secondItem="H48-UM-Jqk" secondAttribute="leading" id="Phu-fH-qAu"/>
+                            <constraint firstItem="1Mp-zK-K1P" firstAttribute="width" secondItem="H48-UM-Jqk" secondAttribute="width" id="Xgy-xU-cGu"/>
+                            <constraint firstItem="Ms4-dW-TCi" firstAttribute="height" secondItem="H48-UM-Jqk" secondAttribute="height" id="b7q-TV-3SC"/>
+                            <constraint firstItem="DuI-RK-171" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eNl-pa-N3i"/>
+                            <constraint firstItem="DuI-RK-171" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ghg-f4-YO0"/>
+                            <constraint firstItem="wfe-h4-tX5" firstAttribute="top" secondItem="adN-BE-Rzc" secondAttribute="bottom" constant="24" id="kgT-WN-gFl"/>
+                            <constraint firstItem="wfe-h4-tX5" firstAttribute="width" secondItem="H48-UM-Jqk" secondAttribute="width" id="lq0-YF-lx0"/>
+                            <constraint firstItem="1Mp-zK-K1P" firstAttribute="height" secondItem="H48-UM-Jqk" secondAttribute="height" id="qdV-ff-Uw4"/>
+                            <constraint firstItem="adN-BE-Rzc" firstAttribute="height" secondItem="H48-UM-Jqk" secondAttribute="height" id="v0q-74-ZyY"/>
+                            <constraint firstItem="wfe-h4-tX5" firstAttribute="height" secondItem="H48-UM-Jqk" secondAttribute="height" id="vMf-CV-0Sy"/>
+                            <constraint firstItem="H48-UM-Jqk" firstAttribute="top" secondItem="DuI-RK-171" secondAttribute="bottom" constant="20" id="yL6-UF-17i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="DuI-RK-171" id="Iq8-U7-HCO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="449"/>
+        </scene>
+    </scenes>
+</document>

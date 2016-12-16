@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicLocalSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disc1" translatesAutoresizingMaskIntoConstraints="NO" id="6Pk-fS-v4W">
+                                <rect key="frame" x="67" y="83" width="240" height="240"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wH3-bA-wSU">
+                                <rect key="frame" x="67" y="375" width="240" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="WqB-fx-G5k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwA-UT-Ltr">
+                                <rect key="frame" x="67" y="475" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="B5N-oQ-yfE"/>
+                                    <constraint firstAttribute="width" constant="46" id="P1A-au-BHq"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Hl-4L-SsA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgI-vZ-3ri">
+                                <rect key="frame" x="261" y="475" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="3t3-XQ-KRZ"/>
+                                    <constraint firstAttribute="width" constant="46" id="R6B-Cz-PL1"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="stop"/>
+                                <connections>
+                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ar6-FW-vWx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wH3-bA-wSU" secondAttribute="bottom" constant="250" id="8Dq-Ql-pH7"/>
+                            <constraint firstItem="wH3-bA-wSU" firstAttribute="leading" secondItem="6Pk-fS-v4W" secondAttribute="leading" id="8Qc-Zz-Ec9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Pk-fS-v4W" secondAttribute="trailing" constant="52" id="95u-Bo-Z6k"/>
+                            <constraint firstItem="wH3-bA-wSU" firstAttribute="top" secondItem="6Pk-fS-v4W" secondAttribute="bottom" constant="52" id="BZd-i4-g1m"/>
+                            <constraint firstItem="UgI-vZ-3ri" firstAttribute="top" secondItem="KwA-UT-Ltr" secondAttribute="top" id="DS2-4b-Yar"/>
+                            <constraint firstItem="wH3-bA-wSU" firstAttribute="trailing" secondItem="6Pk-fS-v4W" secondAttribute="trailing" id="L4J-No-OgJ"/>
+                            <constraint firstItem="6Pk-fS-v4W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="MbN-wf-y3n"/>
+                            <constraint firstItem="KwA-UT-Ltr" firstAttribute="top" secondItem="wH3-bA-wSU" secondAttribute="bottom" constant="58" id="Q9f-ky-GsI"/>
+                            <constraint firstItem="wH3-bA-wSU" firstAttribute="trailing" secondItem="UgI-vZ-3ri" secondAttribute="trailing" id="Ta2-ho-5oS"/>
+                            <constraint firstItem="KwA-UT-Ltr" firstAttribute="leading" secondItem="wH3-bA-wSU" secondAttribute="leading" id="hy4-jE-KoZ"/>
+                            <constraint firstItem="6Pk-fS-v4W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="oTU-3Y-b3F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnplay" destination="KwA-UT-Ltr" id="1xR-a3-fk2"/>
+                        <outlet property="label" destination="wH3-bA-wSU" id="3hP-Tz-McB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-85.599999999999994" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="disc1" width="223" height="223"/>
+        <image name="play" width="181" height="172"/>
+        <image name="stop" width="181" height="172"/>
+    </resources>
+</document>
