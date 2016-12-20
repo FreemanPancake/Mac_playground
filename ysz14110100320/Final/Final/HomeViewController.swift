@@ -9,9 +9,29 @@
 import UIKit
 
 class HomeViewController: UITableViewController {
+    
+    var tellies = NSMutableArray()
+    var movies = NSMutableArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //get jsondata filepath.
+        let jsonPath = Bundle.main.path(forResource: "data", ofType: "json")
+        //create Data object
+        let url = URL(fileURLWithPath: jsonPath!, isDirectory: false)
+        var data = try! Data(contentsOf: url)//NSData(contentsOfFile: jsonPath!)
+        var jsonDic = NSDictionary()
+        
+        if !JSONSerialization.isValidJSONObject(data) {
+            var str = NSString(data: data, encoding: String.Encoding.ascii.rawValue)
+            let data1 = changeJsonStringToTrueJsonString(data: &str!)
+            data = data1.data(using: String.Encoding.ascii.rawValue)!
+           print("No")
+            //return
+        }
+        
+        jsonDic = try! JSONSerialization.jsonObject(with: data, options: .mutableContainers) as! NSDictionary
+        dataLoad(jsonDic)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -24,6 +44,41 @@ class HomeViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func changeJsonStringToTrueJsonString( data : inout NSString) -> NSString {
+        data = data.replacingOccurrences(of: "(\\w+)\\s*:([^A-Za-z0-9_])", with: "\"$1\":$2", options: .regularExpression, range: NSMakeRange(0,data.length)) as NSString
+        data = data.replacingOccurrences(of: "([:\\[,\\{])'", with: "$1\"", options: .regularExpression, range: NSMakeRange(0,data.length)) as NSString
+        data = data.replacingOccurrences(of: "'([:\\],\\}])", with: "\"$1", options: .regularExpression, range: NSMakeRange(0,data.length)) as NSString
+        data = data.replacingOccurrences(of: "([:\\[,\\{])(\\w+)\\s*:", with: "$1\"$2\":", options: .regularExpression, range: NSMakeRange(0,data.length)) as NSString
+        
+        return data
+    }
+    
+    func dataLoad(_ jsonData : NSDictionary){
+        let tellyDataSource = jsonData["telly_lists"] as! NSArray
+        let movieDataSource = jsonData["movie_lists"] as! NSArray
+        let telCurrentData = NSMutableArray()
+        let movCurrentData = NSMutableArray()
+        for currentTellies in tellyDataSource {
+            let tellyitem = TellyItem()
+            tellyitem.title = (currentTellies as! NSDictionary)["title"] as? String
+            tellyitem.bgPic = (currentTellies as! NSDictionary)["bg_pic"] as? String
+            tellyitem.detail = (currentTellies as! NSDictionary)["deatil"] as? String
+            telCurrentData.add(tellyitem)
+        }
+        for currentMovies in movieDataSource {
+            let movieitem = MovieItem()
+            movieitem.title = (currentMovies as! NSDictionary)["title"] as? String
+            movieitem.bgPic = (currentMovies as! NSDictionary)["bg_pic"] as? String
+            movieitem.detail = (currentMovies as! NSDictionary)["detail"] as? String
+            movCurrentData.add(movieitem)
+        }
+        DispatchQueue.main.async(execute: {
+        self.tellies = telCurrentData
+        self.movies = movCurrentData
+        self.tableView.reloadData()
+        })
+    }
 
     // MARK: - Table view data source
 
@@ -34,18 +89,33 @@ class HomeViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        //let count = tellies.count + movies.count
+        return tellies.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell : ListViewCell = tableView.dequeueReusableCell(withIdentifier: "homelistcel", for: indexPath) as! ListViewCell
 
-        // Configure the cell...
-
+        // Configure the cell
+        let tellymodel = tellies[indexPath.row] as! TellyItem
+        cell.titleLabel.text = tellymodel.title
+        
+        //Configure the background
+        let bgImageUrl : URL = URL(string: tellymodel.bgPic!)!
+        let bgData : Data = try! Data(contentsOf: bgImageUrl)
+        let background = UIImage(data: bgData)
+        cell.bgImage.image = background
+        
+        //BlurEffect
+        let blurEffect = UIBlurEffect(style: .dark)
+        let blurView = UIVisualEffectView(effect: blurEffect)
+        blurView.frame = cell.bgImage.bounds
+        cell.bgImage.addSubview(blurView)
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

@@ -13,6 +13,10 @@
 		B6034B4C1DFF723600A66B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6034B4A1DFF723600A66B1D /* LaunchScreen.storyboard */; };
 		B6034B541DFF758300A66B1D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6034B531DFF758300A66B1D /* TabBarController.swift */; };
 		B6034B581DFF7B2400A66B1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6034B571DFF7B2400A66B1D /* HomeViewController.swift */; };
+		B64D8FB21E0811640022015D /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D8FB11E0811640022015D /* MovieModel.swift */; };
+		B6D6E7BC1E08B263006F7620 /* TellyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D6E7BB1E08B263006F7620 /* TellyModel.swift */; };
+		B6D6E7C01E08B983006F7620 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D6E7BF1E08B983006F7620 /* ListViewCell.swift */; };
+		B6D6E7C21E08C37A006F7620 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D6E7C11E08C37A006F7620 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +28,10 @@
 		B6034B4D1DFF723600A66B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6034B531DFF758300A66B1D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B6034B571DFF7B2400A66B1D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		B6034B591DFF7D8700A66B1D /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B64D8FB11E0811640022015D /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		B6D6E7BB1E08B263006F7620 /* TellyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellyModel.swift; sourceTree = "<group>"; };
+		B6D6E7BF1E08B983006F7620 /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		B6D6E7C11E08C37A006F7620 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +65,34 @@
 			isa = PBXGroup;
 			children = (
 				B6034B411DFF723600A66B1D /* AppDelegate.swift */,
-				B6034B531DFF758300A66B1D /* TabBarController.swift */,
+				B6D6E7BE1E08B661006F7620 /* Controller */,
+				B6D6E7BD1E08B5FD006F7620 /* Model */,
 				B6034B451DFF723600A66B1D /* Main.storyboard */,
 				B6034B481DFF723600A66B1D /* Assets.xcassets */,
 				B6034B4A1DFF723600A66B1D /* LaunchScreen.storyboard */,
 				B6034B4D1DFF723600A66B1D /* Info.plist */,
-				B6034B571DFF7B2400A66B1D /* HomeViewController.swift */,
-				B6034B591DFF7D8700A66B1D /* data.json */,
+				B6D6E7C11E08C37A006F7620 /* data.json */,
 			);
 			path = Final;
+			sourceTree = "<group>";
+		};
+		B6D6E7BD1E08B5FD006F7620 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B64D8FB11E0811640022015D /* MovieModel.swift */,
+				B6D6E7BB1E08B263006F7620 /* TellyModel.swift */,
+				B6D6E7BF1E08B983006F7620 /* ListViewCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6D6E7BE1E08B661006F7620 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6034B531DFF758300A66B1D /* TabBarController.swift */,
+				B6034B571DFF7B2400A66B1D /* HomeViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Freeman;
 				TargetAttributes = {
 					B6034B3D1DFF723600A66B1D = {
@@ -131,6 +157,7 @@
 				B6034B4C1DFF723600A66B1D /* LaunchScreen.storyboard in Resources */,
 				B6034B491DFF723600A66B1D /* Assets.xcassets in Resources */,
 				B6034B471DFF723600A66B1D /* Main.storyboard in Resources */,
+				B6D6E7C21E08C37A006F7620 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64D8FB21E0811640022015D /* MovieModel.swift in Sources */,
 				B6034B541DFF758300A66B1D /* TabBarController.swift in Sources */,
 				B6034B421DFF723600A66B1D /* AppDelegate.swift in Sources */,
+				B6D6E7BC1E08B263006F7620 /* TellyModel.swift in Sources */,
+				B6D6E7C01E08B983006F7620 /* ListViewCell.swift in Sources */,
 				B6034B581DFF7B2400A66B1D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +217,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -237,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -305,6 +337,7 @@
 				B6034B521DFF723600A66B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

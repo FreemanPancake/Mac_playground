@@ -14,7 +14,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
 
         let story = UIStoryboard(name: "Main", bundle: nil)
-        lat home = story.instantiateViewController(withIdentifier: "home") as! HomeViewController
+        let home = story.instantiateViewController(withIdentifier: "home") as! HomeViewController
         
     }
 

@@ -1,9 +1,24 @@
 {
-    "data": [
-    {
-             "id" : "1";
-             "name" :
-    }
-        
-    ]
+    "telly_lists":[{
+                   "id":"324057401",
+                   "title":"Sherlock",
+                   "detail":"\u300a\u795e\u63a2\u590f\u6d1b\u514b\u300b\u7b2c\u56db\u5b63\u5c06\u4e8e2017\u5e741\u67081\u65e5\u56de\u5f52BBC1\uff0c\u672c\u5b63\u4f9d\u65e7\u4e3a\u4e09\u96c6\uff0c\u6807\u9898\u5206\u522b\u4e3a\uff1a\u7b2c\u4e00\u96c6\uff1a\u516d\u5ea7\u6492\u5207\u5c14\u592b\u4eba\u50cf\uff08TheSixThatchers\uff09\uff1a\u7f16\u5267\u4e3aMarkGatiss\uff0c\u5bfc\u6f14\u4e3aRachelTalalay\uff1b\u7b2c\u4e8c\u96c6\uff1a\u6492\u8c0e\u7684\u4fa6\u63a2\uff08TheLyingDetective\uff09\uff1a\u7f16\u5267\u4e3aStevenMoffat\uff0c\u5bfc\u6f14\u4e3aNickHurran\uff1b\u7b2c\u4e09\u96c6\uff1a\u6700\u540e\u7684\u8c1c\u9898\uff08TheFinalProblem\uff09\uff1a\u7f16\u5267\u4e3aMarkGatiss\u548cStevenMoffat\uff0c\u5bfc\u6f14\u4e3aBenCaron\u3002",
+                   "bg_pic":"http:\/\/www.fixsub.com\/wp-content\/uploads\/2016\/12\/Sherlock.jpg",
+                   "poster_pic":"http:\/\/www.fixsub.com\/wp-content\/uploads\/2016\/12\/Sherlock.jpg",
+                   "downloadlink":"",
+                   "showlink":"",
+                   "actor":"\u672c\u5c3c\u8fea\u514b\u7279\u00b7\u5eb7\u4f2f\u5df4\u5947\/\u9a6c\u4e01\u00b7\u5f17\u745e\u66fc\/\u5b89\u5fb7\u9c81\u00b7\u65af\u79d1\u7279\/\u9c81\u73c0\u7279\u00b7\u683c\u96f7\u592b\u65af\/\u5c24\u5a1c\u00b7\u65af\u5854\u5e03\u65af",
+                   "director":"\u745e\u79cb\u00b7\u5854\u62c9\u857e\/\u5c3c\u514b\u00b7\u8d6b\u4f26\/\u672c\u00b7\u5361\u9686",
+                   "scriptwriter":"\u9a6c\u514b\u00b7\u52a0\u8482\u65af\/\u53f2\u8482\u6587\u00b7\u83ab\u6cd5\u7279\/\u963f\u745f\u00b7\u67ef\u5357\u00b7\u9053\u5c14",
+                   "channel":"BBCchannelone",
+                   "timezone":"",
+                   "broadcast_time":"\u672a\u5b9a",
+                   "premiere":"2017-01-01(\u82f1\u56fd)",
+                   "season":"\u7b2c\u56db\u5b63",
+                   "episode":"00",
+                   "all_episode":"3",
+                   "type":"\u5267\u60c5\/\u60ac\u7591\/\u72af\u7f6a",
+                   "language":"\u82f1\u8bed",
+                   "zone":"\u82f1\u56fd"
+                   }]
 }
